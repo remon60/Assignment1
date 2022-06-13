@@ -16,8 +16,10 @@ p{
 }
 h1{
     font-size: 48px;
+    color:#565151;
 }
 h2{
+    color:#565151;
     font-size: 30px;
 }
 .half-width{
@@ -34,7 +36,6 @@ h2{
         height: 500px;
         padding-bottom: 100px;
     }
-/*header*/
 
     .button{
         display: inline-block;
@@ -77,44 +78,59 @@ h2{
     .mid-area .mid-text{
         margin-top:80px ;
     }  
+/*Recipe Section*/
+.recipe{
+    text-align: center;
+    margin-top: -95px;
+}
+.recipe p{
+    padding: 5px;
+    font-size: 14px;
+}
 
 
-/* Food */
-    .food{
-        text-align:center;
-    }
-    .food h1{ 
-        color: rgb(117, 111, 111);
-        margin-top: 40px;
-    }
-    .third1{
-        display: flex;
-        text-align: justify;
-        justify-content: space-between;
-        border-radius: 15px;
-        max-width: 1300px;
-        margin: 20px auto;
+/* Food Items Area*/
 
-    
+.food-items-area{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: -15px 0 0 0;
+    padding: 0 60px;
+    height: 420px;
+}
+    .food-item{
+        margin: 30px;
+        color: #565151;
     }
-    .third1-food{
-        
-        border-radius: 10px;
-        padding: 10px;
-        box-shadow: 0 0 10px 0px rgb(0,0,0,0.1);
+    .food-item-text{
+        text-align:left; 
+        padding: 0;
+        margin: 0;
+    }
+    .food-item h5{ 
+        color: #000000;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 20px;
+    }
+    .food-item p{
+        margin-top: -20px;
+        font-size: 13px;
+        line-height: 1.8;
+    }
+    .food-item{
+        border-radius: 20px;
+        padding: 15px;
+        box-shadow:0px 0px 11px 8px rgba(87,87,87,0.62);
         cursor: pointer;
-      
         display:flex ;
-        flex-direction:column;
-        gap: 5px;
+        flex-direction: column;
     }
-    .third1-food h2{
-        margin-bottom: 5px;
-    }
-    .third1 img{
+    .food-items-area img{
+        width: 100%;
         height: auto;
-        width: 300px;
-
     }
 /* Social Media Followers */
     .four{
