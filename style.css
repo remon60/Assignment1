@@ -1,6 +1,5 @@
 
 body{
-    margin-top: ;
     font-family: 'IBM Plex Sans', sans-serif;
     margin: 0;
     padding: 30px 0;
@@ -37,6 +36,7 @@ h2{
         padding-bottom: 100px;
     }
 
+/*Button Style*/    
     .button{
         display: inline-block;
         background: linear-gradient(to left,#ff6652 0%,#ff9d41);
@@ -52,7 +52,7 @@ h2{
     }
 
 
-/* About Me */
+/* About Me Section*/
     .mid-area{
         background-image: url("images/shapes/7.png");
         background-repeat: no-repeat;
@@ -78,7 +78,8 @@ h2{
     .mid-area .mid-text{
         margin-top:80px ;
     }  
-/*Recipe Section*/
+
+/*Recipie Section*/
 .recipe{
     text-align: center;
     margin-top: -95px;
@@ -89,7 +90,7 @@ h2{
 }
 
 
-/* Food Items Area*/
+/* Food Items Section*/
 
 .food-items-area{
     display: flex;
@@ -99,6 +100,14 @@ h2{
     margin: -15px 0 0 0;
     padding: 0 60px;
     height: 420px;
+}
+.food-item{
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow:0px 0px 11px 8px rgba(178, 159, 159, 0.62);
+    cursor: pointer;
+    display:flex ;
+    flex-direction: column;
 }
     .food-item{
         margin: 30px;
@@ -123,7 +132,7 @@ h2{
     .food-item{
         border-radius: 20px;
         padding: 15px;
-        box-shadow:0px 0px 11px 8px rgba(87,87,87,0.62);
+        box-shadow:0px 0px 11px 8px rgba(178, 159, 159, 0.62);
         cursor: pointer;
         display:flex ;
         flex-direction: column;
@@ -132,40 +141,41 @@ h2{
         width: 100%;
         height: auto;
     }
-/* Social Media Followers */
-    .four{
-        margin-left: 75px;
-    }
-    .fourth-part{
-        display: grid;
-        
-        grid-template-columns: auto auto auto;
-        text-align: center;
-        max-width: 1150px;
-        margin: 80px 30px;
-        padding: 80px;
-        box-shadow:0 0 20px 0px rgba(8, 8, 8, 0.1);
-        cursor: pointer;
-        border-radius: 15px; 
+/* Social Media Section */
+.social-media-section{
+    max-width: 90%;
+    max-height: 40px;
+    margin: 20px 80px 80px 80px;
+    padding: 0 80px 80px 80px;
+}
+.social-media{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    box-shadow:0 0 20px 0px rgba(8, 8, 8, 0.1);
+    cursor: pointer;
+    border-radius: 15px; 
+}
 
-    }
-
-/* Footer */
-    .five{
-        background: #000;
+/* Footer Section*/
+    .footer-section{
+        width: 100%;
+        height: 100px;
+        background: rgb(5, 2, 14);
         color: #6a6666;
-        font-size: 14px;
-        padding: 80px 0 20px;
+        padding: 5px 0 50px 0;
         text-align: center;
     }
-    .five1 p{
-        color: #fcfcfc;
-        text-align: center;
-    }
-    .five1 h1{
+    .footer-section h5{
         color: rgb( 163,157,157 );
-        margin-bottom: 20px;
+        margin-bottom: 0;
         text-align: center;
-
+        font-size: 20px;
+        padding: 5px;
+    }
+    .footer-section p{
+        color: #ffffff;
+        text-align: center;
+        font-size: 10px;
     }
 
